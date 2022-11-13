@@ -3,11 +3,11 @@
 <br>
 
 # :hibiscus: Project Fuchsia
-Work in progress terminal tool to help me (and possibly anyone) set up new Windows computers.
+Terminal tool to help me (and possibly anyone) set up new Windows computers.
 
 ## :sparkler: Features
-- User Account Setup: create local accounts with specified username
-- Software Installer: PowerShell script to install Chocolatey and chosen software using Chocolatey.   
+- User Account Setup: create local accounts with specified username using <code>net user</code>.
+- Software Installer: install software using the built-in Windows package manager ***winget***.   
   <i>for full software list, see: [availablepackages](availablepackages)</i>
 - Windows Debloater: remove bloatware from Windows.
 

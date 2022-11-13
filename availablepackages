@@ -1,11 +1,15 @@
--- THIS LIST WILL BE EXPANDED ---
+-- THIS LIST WILL BE EXPANDED; SUGGESTIONS ARE APPRECIATED --
 
-googlechrome
-firefox
-telegram
-discord
-spotify
-vlc
-protonvpn
-bitwarden
-microsoft-teams
+package               | winget command
+googlechrome            winget install -h -e --accept-package-agreements --id Google.Chrome
+firefox                 winget install -h -e --accept-package-agreements --id Mozilla.Firefox
+telegram                winget install -h -e --accept-package-agreements --id Telegram.TelegramDesktop
+discord                 winget install -h -e --accept-package-agreements --id Discord.Discord
+spotify                 winget install -h -e --accept-package-agreements --id Spotify.Spotify
+vlc                     winget install -h -e --accept-package-agreements --id VideoLAN.VLC
+protonvpn               winget install -h -e --accept-package-agreements --id ProtonTechnologies.ProtonVPN
+bitwarden               winget install -h -e --accept-package-agreements --id Bitwarden.Bitwarden
+microsoft-teams         winget install -h -e --accept-package-agreements --id Microsoft.Teams
+zoom                    winget install -h -e --accept-package-agreements --id Zoom.Zoom
+steam                   winget install -h -e --accept-package-agreements --id Valve.Steam
+hyperterminal           winget install -h -e --accept-package-agreements --id Vercel.Hyper
