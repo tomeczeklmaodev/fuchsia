@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 			std::cout << "Fuchsia 0.1.0\n\n";
 			std::cout << "Terminal tool to help set up a new Windows device.\n";
 			std::cout << "https://github.com/tomeczeklmaodev/fuchsia\n";
-		} else if (strcmp(argv[i], "print") == 0) {
+		} else if (strcmp(argv[i], "print") == 0) { // i added this as a test; will remove later
 			std::string subarg = argv[i + 1];
 			std::cout << subarg << "\n";
 		} else if (strcmp(argv[i], "uas") == 0) {
